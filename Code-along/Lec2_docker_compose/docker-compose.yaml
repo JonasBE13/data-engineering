@@ -7,8 +7,13 @@ services:
     container_name: lecture2
 
     # named volume
-    volumes:
-      - dice-simulator:/app/src/
+    # volumes:
+    #   - dice-simulator:/app/src/
 
-volumes:
-   dice-simulator:
+    # bind mount
+    # host path: container path
+    volumes:
+      - ./src:/app/src
+
+# volumes:
+#    dice-simulator:
