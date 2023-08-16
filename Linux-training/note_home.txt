@@ -1,0 +1,2 @@
+Hello from note_home
+the current path is: /c/Users/jonas/documents/github/data-engineering/Linux-training
